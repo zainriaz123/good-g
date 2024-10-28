@@ -1,0 +1,54 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title":"Game Development",
+            "slug":"game-development",
+            "description": " lorem ispum  ",
+            "price":99.99,
+             "instructor":"mali",
+             "isFeatured":true,
+             "image":"h"
+        },
+        {
+            "id":1,
+            "title":"Game Development",
+            "slug":"game-development",
+            "description": " lorem ispum  ",
+            "price":99.99,
+             "instructor":"mali",
+             "isFeatured":false,
+             "image":"h"
+        },
+        {
+            "id":1,
+            "title":"Game Development",
+            "slug":"game-development",
+            "description": " lorem ispum  ",
+            "price":99.99,
+             "instructor":"mali",
+             "isFeatured":true,
+             "image":"h"
+        },
+        {
+            "id":1,
+            "title":"Game Development",
+            "slug":"game-development",
+            "description": " lorem ispum  ",
+            "price":99.99,
+             "instructor":"mali",
+             "isFeatured":true,
+             "image":"h"
+        },
+        {
+            "id":1,
+            "title":"Game Development",
+            "slug":"game-development",
+            "description": " lorem ispum  ",
+            "price":99.99,
+             "instructor":"mali",
+             "isFeatured":true,
+             "image":"h"
+        }
+    ]
+}
