@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-
+import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='bg-black text-gray-400 py-12 bottom-0 left-0 w-full'>
@@ -18,10 +18,10 @@ const Footer = () => {
 
 <ul>
 
-    <li><a href="/">home</a></li>
-    <li><a href="/courses" className=' hover:text-slate-300'>courses</a></li>
-    <li><a href="/about"className=' hover:text-slate-300'>about</a></li>
-    <li><a href="/contact"className=' hover:text-slate-300'>contact</a></li>
+    <li><Link href="/">home</Link></li>
+    <li><Link href="/courses" className=' hover:text-slate-300'>courses</Link></li>
+    <li><Link href="/about"className=' hover:text-slate-300'>about</Link></li>
+    <li><Link href="/contact"className=' hover:text-slate-300'>contact</Link></li>
 </ul>
 
 
@@ -29,11 +29,11 @@ const Footer = () => {
       <div>
         <h3 className='text-lg font-bold text-white mb-4 ' > follow us</h3>
         <ul>
-    <li><a href="/courses" className=' hover:text-slate-300'>tik tok</a></li>
-    <li><a href="/about"className=' hover:text-slate-300'>instagram</a></li>
-    <li><a href="/contact"className=' hover:text-slate-300'>facebook</a></li>
-    <li><a href="/contact"className=' hover:text-slate-300'>linkedle</a></li>
-    <li><a href="/contact"className=' hover:text-slate-300'>twitter</a></li>
+    <li><Link href="/courses" className=' hover:text-slate-300'>tik tok</Link></li>
+    <li><Link href="/about"className=' hover:text-slate-300'>instagram</Link></li>
+    <li><Link href="/contact"className=' hover:text-slate-300'>facebook</Link></li>
+    <li><Link href="/contact"className=' hover:text-slate-300'>linkedle</Link></li>
+    <li><Link href="/contact"className=' hover:text-slate-300'>twitter</Link></li>
 </ul>
       </div>
       <div>
@@ -47,4 +47,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

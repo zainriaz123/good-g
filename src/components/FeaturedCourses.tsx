@@ -2,7 +2,6 @@
 'use client'
 import courseData from '@/data/code_courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
-import { Card } from './ui/card-hover-effect';
 import Link from 'next/link';
 interface Course{
                "id":number,
