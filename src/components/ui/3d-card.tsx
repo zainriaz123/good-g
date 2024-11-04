@@ -1,13 +1,13 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import React, {
   createContext,
   useState,
   useContext,
   useRef,
   useEffect,
+
 } from "react";
 
 const MouseEnterContext = createContext<
@@ -116,7 +116,7 @@ export const CardItem = ({
   rotateX?: number | string;
   rotateY?: number | string;
   rotateZ?: number | string;
-  [key: string]: any;
+  [key: string]:any;
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
@@ -144,8 +144,6 @@ export const CardItem = ({
     </Tag>
   );
 };
-
-// Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (context === undefined) {

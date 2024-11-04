@@ -33,15 +33,15 @@ function Instructor() {
     <div className="relative h-[40rem] overflow-hidden flex flex-col items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage: `url(${logoImage.src})`,
-        backgroundSize: 'contain', // Change to 'contain' to fit the logo
+        backgroundSize: 'contain', 
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center', // Center the image
+        backgroundPosition: 'center', 
       }}
     >
-      {/* Semi-transparent overlay for better text contrast */}
+      
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
-      <div className="relative z-10"> {/* Text above overlay */}
+      <div className="relative z-10"> 
         <h2 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           Meet Our Instructors
         </h2>
