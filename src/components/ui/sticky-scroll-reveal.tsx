@@ -1,5 +1,5 @@
 "use client";
-import React, { ElementType, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -11,7 +11,7 @@ export const StickyScroll = ({
   content: {
     title: string;
     description: string;
-    content?: React.ReactNode | any;
+    content?: React.ReactNode ;
   }[];
   contentClassName?: string;
 }) => {
