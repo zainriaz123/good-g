@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link"
-import { HoverEffect } from "./ui/card-hover-effect";
+import { HoverEffect } from "./ui/card-hover-effect"
 
 const webinars =[
   {
